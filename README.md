@@ -61,3 +61,6 @@ To compile the code, click on the "Solidity Compiler" tab in the left-hand sideb
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyToken" contract from the dropdown menu, and then click on the "Deploy" button.
 
 Once the contract is deployed, you can interact with it by calling the "mint" and "burn" functions and retrieving the values of total supply as well as the balance amount in the given address. Click on the "MyToken" contract in the left-hand sidebar, and then click on the "mint" function and add the proper arguments. Finally, click on the "transact" button to execute the function and adding balance to the total supply and the given address. We can also interact with the "burn" function and remove the amount from total supply and the given balance. We can also interact with the variables such as total supply and balance(mapped to a given address) and retrieve their values as well.
+
+For detailed explanation you can also visit my loom link given below:
+https://www.loom.com/share/be160f6acfc3405c8d2fb540b251b32b?sid=8c066c38-fa85-4ae1-81fd-b5013b8628f5
