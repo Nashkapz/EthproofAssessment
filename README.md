@@ -62,7 +62,7 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
 
 Once the contract is deployed, you can interact with it by calling the "mint" and "burn" functions and retrieving the values of public variables such as Token Name, Token Abbreviation, total supply as well as the balance amount in the given address. Click on the "MyToken" contract in the left-hand sidebar, and then click on the "mint" function and add the proper arguments. Finally, click on the "transact" button to execute the function which adds balance to the total supply and the given address. We can also interact with the "burn" function and remove the amount from total supply and the given balance. We can also interact with the variables such as total supply and balance(mapped to a given address) and retrieve their values as well.
 
-For detailed explanation you can also watch my [Loom](https://www.loom.com/share/be160f6acfc3405c8d2fb540b251b32b?sid=8c066c38-fa85-4ae1-81fd-b5013b8628f5) video
+For detailed explanation you can also watch my [Loom](https://www.loom.com/share/be160f6acfc3405c8d2fb540b251b32b?sid=8c066c38-fa85-4ae1-81fd-b5013b8628f5) video.
 
 ## Authors
 
