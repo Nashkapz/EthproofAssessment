@@ -18,9 +18,9 @@ pragma solidity 0.8.18;
 contract MyToken {
 
     // public variables here
-    string TokenName = "Kapzeum";
-    string TokenAbbrev = "Kzee";
-    uint TotalSupply = 0;
+    string public TokenName = "Kapzeum";
+    string public TokenAbbrev = "Kzee";
+    uint public TotalSupply = 0;
     // mapping variable here
     mapping(address=>uint) public balances;
     // mint function
