@@ -1,4 +1,4 @@
-# Creating Token
+# Create a Token
 
 This program demonstrates the creation of a token using the Solidity programming language. The purpose of this program is to understand the basic requirements of token i.e. it's name, abbreviation and two important functionalities which are minting token to add new token in the current flow of blockchain and burn function to remove the token from the blockchain.
 
