@@ -1,10 +1,10 @@
-# Kapzeum Token
+# Creating Token
 
-This program demonstrates the basic syntax and functionality of creating a token using the Solidity programming language. The purpose of this program is to understand the basic requirements of token i.e. it's name, abbreviation and two important functionalities which are minting token to add new token in the current flow of blockchain and burn function to remove the token from the blockchain.
+This program demonstrates the creation of a token using the Solidity programming language. The purpose of this program is to understand the basic requirements of token i.e. it's name, abbreviation and two important functionalities which are minting token to add new token in the current flow of blockchain and burn function to remove the token from the blockchain.
 
 ## Description
 
-In this program we build a contract named MyToken in which we created a token and described it's name and abbreviation and total supply provided and then mapped the address to the value as balance. After that we minted the tokens and added the value to total supply and to the balance of the addresss. Atlast we created a function named burn which deducts the the value from total supply as well as the balance if and only if the value is less than or equal to the balance.
+In this program we built a contract named MyToken in which we created a token and described it's name and abbreviation and total supply and then created a mapping of address to a uint value as balance. After that we minted the tokens and added the value to total supply and to the balance of the addresss. Atlast we created a function named burn which deducts the the value from total supply as well as the balance of address if and only if the value is less than or equal to the balance.
 
 ## Getting Started
 
@@ -60,7 +60,16 @@ To compile the code, click on the "Solidity Compiler" tab in the left-hand sideb
 
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyToken" contract from the dropdown menu, and then click on the "Deploy" button.
 
-Once the contract is deployed, you can interact with it by calling the "mint" and "burn" functions and retrieving the values of total supply as well as the balance amount in the given address. Click on the "MyToken" contract in the left-hand sidebar, and then click on the "mint" function and add the proper arguments. Finally, click on the "transact" button to execute the function and adding balance to the total supply and the given address. We can also interact with the "burn" function and remove the amount from total supply and the given balance. We can also interact with the variables such as total supply and balance(mapped to a given address) and retrieve their values as well.
+Once the contract is deployed, you can interact with it by calling the "mint" and "burn" functions and retrieving the values of public variables such as Token Name, Token Abbreviation, total supply as well as the balance amount in the given address. Click on the "MyToken" contract in the left-hand sidebar, and then click on the "mint" function and add the proper arguments. Finally, click on the "transact" button to execute the function which adds balance to the total supply and the given address. We can also interact with the "burn" function and remove the amount from total supply and the given balance. We can also interact with the variables such as total supply and balance(mapped to a given address) and retrieve their values as well.
 
-For detailed explanation you can also visit my loom link given below:
-https://www.loom.com/share/be160f6acfc3405c8d2fb540b251b32b?sid=8c066c38-fa85-4ae1-81fd-b5013b8628f5
+For detailed explanation you can also watch my [Loom](https://www.loom.com/share/be160f6acfc3405c8d2fb540b251b32b?sid=8c066c38-fa85-4ae1-81fd-b5013b8628f5) video
+
+## Authors
+
+Metacrafter Sourav  
+[@SouravKapoor](mailto:kapoorsourav15@gmail.com)
+
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
